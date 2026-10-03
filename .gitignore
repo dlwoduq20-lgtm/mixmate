@@ -19,6 +19,12 @@ mixmate.html
 mixmate-source.zip
 Claude outputs/
 
+# Keystores and signing keys
+*.jks
+*.keystore
+mixmate-release-key.jks
+*.aab
+MIXMATE-v1.0.aab
 
 # Editor directories and files
 .vscode/*
