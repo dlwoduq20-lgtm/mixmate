@@ -113,14 +113,16 @@ export default function CocktailDetail() {
         <button
           onClick={() => navigate(-1)}
           aria-label={t('common.back')}
-          className="absolute top-4 left-4 w-10 h-10 rounded-full bg-white/90 flex items-center justify-center shadow"
+          className="absolute top-4 left-4 z-10 w-10 h-10 rounded-full bg-white/90 flex items-center justify-center shadow"
+          style={{ top: 'calc(env(safe-area-inset-top, 0px) + 1rem)' }}
         >
           <ChevronLeft size={20} />
         </button>
         <button
           onClick={() => toggleFavorite(cocktail.id)}
           aria-label={isFav ? t('common.removeFromFavorites') : t('common.addToFavorites')}
-          className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/90 flex items-center justify-center shadow"
+          className="absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-white/90 flex items-center justify-center shadow"
+          style={{ top: 'calc(env(safe-area-inset-top, 0px) + 1rem)' }}
         >
           <Heart size={19} className={isFav ? 'fill-[var(--color-favorite)] text-[var(--color-favorite)]' : 'text-[var(--color-ink-soft)]'} />
         </button>
