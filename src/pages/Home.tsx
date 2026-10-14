@@ -4,7 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { GlassWater, Dices, Sparkles, Sun, Flame, ArrowRight } from 'lucide-react'
 import { COCKTAILS } from '../data/cocktails'
 import { useAppStore } from '../store/useAppStore'
-import { useAllMatches } from '../hooks/useMatches'
+import { useOwnedSet } from '../hooks/useMatches'
+import { getMatchingCocktails } from '../lib/matching'
 import { currentSeason, greetingKeyForTime, type Season } from '../lib/season'
 import { formatRelativeTime } from '../lib/format'
 import { History, Clock3 } from 'lucide-react'
@@ -39,8 +40,6 @@ export default function Home() {
   const selectedIngredients = useAppStore((s) => s.selectedIngredients)
   const recentlyViewedIds = useAppStore((s) => s.recentlyViewed)
   const recentlyMade = useAppStore((s) => s.recentlyMade)
-  const matches = useAllMatches()
-
   const recentlyViewedCocktails = useMemo(
     () => recentlyViewedIds.map((id) => COCKTAILS.find((c) => c.id === id)).filter((c): c is (typeof COCKTAILS)[number] => !!c),
     [recentlyViewedIds],
@@ -55,9 +54,33 @@ export default function Home() {
   )
   const [surprise, setSurprise] = useState<string | null>(null)
 
-  const readyMatches = useMemo(() => matches.filter((m) => m.status === 'READY').sort((a, b) => b.cocktail.popularity - a.cocktail.popularity), [matches])
-  const oneAwayMatches = useMemo(() => matches.filter((m) => m.status === 'ONE_AWAY').slice(0, 4), [matches])
-  const twoAwayMatches = useMemo(() => matches.filter((m) => m.status === 'TWO_AWAY').slice(0, 4), [matches])
+  const ownedSet = useOwnedSet()
+  const allMatchesWithSubstitutes = useMemo(
+    () => getMatchingCocktails(COCKTAILS, ownedSet, { includeUnavailable: true, useSubstitutes: true }),
+    [ownedSet],
+  )
+  const matches = allMatchesWithSubstitutes
+
+  const perfectReadyMatches = useMemo(
+    () =>
+      allMatchesWithSubstitutes
+        .filter((m) => m.status === 'READY' && m.substitutedIngredients.length === 0)
+        .sort((a, b) => b.cocktail.popularity - a.cocktail.popularity),
+    [allMatchesWithSubstitutes],
+  )
+  const substituteReadyMatches = useMemo(
+    () =>
+      allMatchesWithSubstitutes
+        .filter((m) => m.status === 'READY' && m.substitutedIngredients.length > 0)
+        .sort((a, b) => b.cocktail.popularity - a.cocktail.popularity),
+    [allMatchesWithSubstitutes],
+  )
+  const readyMatches = useMemo(
+    () => allMatchesWithSubstitutes.filter((m) => m.status === 'READY').sort((a, b) => b.cocktail.popularity - a.cocktail.popularity),
+    [allMatchesWithSubstitutes],
+  )
+  const oneAwayMatches = useMemo(() => allMatchesWithSubstitutes.filter((m) => m.status === 'ONE_AWAY').slice(0, 4), [allMatchesWithSubstitutes])
+  const twoAwayMatches = useMemo(() => allMatchesWithSubstitutes.filter((m) => m.status === 'TWO_AWAY').slice(0, 4), [allMatchesWithSubstitutes])
 
   const season = currentSeason()
   const seasonCocktails = useMemo(
@@ -84,7 +107,7 @@ export default function Home() {
       navigate('/my-bar')
       return
     }
-    const pool = readyMatches.length > 0 ? readyMatches.map((m) => m.cocktail) : matches.filter((m) => m.status !== 'UNAVAILABLE').map((m) => m.cocktail)
+    const pool = readyMatches.length > 0 ? readyMatches.map((m) => m.cocktail) : allMatchesWithSubstitutes.filter((m) => m.status !== 'UNAVAILABLE').map((m) => m.cocktail)
     if (pool.length === 0) {
       navigate('/my-bar')
       return
@@ -153,17 +176,36 @@ export default function Home() {
         </div>
       )}
 
-      {/* YOU CAN MAKE */}
-      {readyMatches.length > 0 && (
+      {/* 100% PERFECT READY */}
+      {perfectReadyMatches.length > 0 && (
         <div className="mb-7">
           <SectionHeader
-            title={t('home.youCanMake')}
-            subtitle={t('common.cocktails', { count: readyMatches.length })}
-            action={readyMatches.length > 4 ? t('common.seeAll') : undefined}
+            title={t('home.perfectReady')}
+            subtitle={t('home.perfectReadySubtitle')}
+            action={perfectReadyMatches.length > 4 ? t('common.seeAll') : undefined}
             onAction={() => navigate('/cocktails?mode=results&status=ready')}
           />
           <HorizontalScroll>
-            {readyMatches.slice(0, 8).map((m) => (
+            {perfectReadyMatches.slice(0, 8).map((m) => (
+              <div key={m.cocktail.id} className="snap-start shrink-0">
+                <CocktailCard match={m} compact />
+              </div>
+            ))}
+          </HorizontalScroll>
+        </div>
+      )}
+
+      {/* SUBSTITUTE READY (SIMILAR TASTE) */}
+      {substituteReadyMatches.length > 0 && (
+        <div className="mb-7">
+          <SectionHeader
+            title={t('home.substituteReady')}
+            subtitle={t('home.substituteReadySubtitle')}
+            action={substituteReadyMatches.length > 4 ? t('common.seeAll') : undefined}
+            onAction={() => navigate('/cocktails?mode=results&status=ready')}
+          />
+          <HorizontalScroll>
+            {substituteReadyMatches.slice(0, 8).map((m) => (
               <div key={m.cocktail.id} className="snap-start shrink-0">
                 <CocktailCard match={m} compact />
               </div>

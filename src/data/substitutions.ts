@@ -232,6 +232,57 @@ export const SUBSTITUTIONS: Record<string, SubstitutionEntry[]> = {
   basil: [
     { ingredientId: 'mint', noteKo: '은은한 허브 향 대신 시원한 향이 나요', note: 'A cool freshness in place of the gentle herbal note' },
   ],
+
+  // Soju & Vodka
+  soju: [
+    { ingredientId: 'vodka', noteKo: '소주 대신 보드카를 사용하면 알코올이 깔끔하고 도수가 높아져요', note: 'Cleaner alcohol profile with slightly higher ABV' },
+  ],
+  vodka: [
+    { ingredientId: 'soju', noteKo: '보드카 대신 소주를 쓰면 도수가 낮아지고 순한 맛이 나요', note: 'Lower ABV and smoother, milder character' },
+  ],
+
+  // Beer & Dark Beer
+  beer: [
+    { ingredientId: 'dark-beer', noteKo: '흑맥주의 볶은 몰트 풍미와 묵직함이 더해져요', note: 'Adds roasted malt depth and body' },
+  ],
+  'dark-beer': [
+    { ingredientId: 'beer', noteKo: '묵직함 대신 산뜻하고 청량한 라거 맛이 나요', note: 'Lighter and crisp lager character' },
+  ],
+
+  // Korean Mixers & Sodas
+  'chilsung-cider': [
+    { ingredientId: 'soda-water', noteKo: '단맛이 빠지고 깔끔한 탄산감만 남아요', note: 'Loses the sweet lemon-lime flavor, clean fizz' },
+    { ingredientId: 'tonic-water', noteKo: '쌉쌀한 시트러스 풍미로 색다른 매력이 생겨요', note: 'Slightly bitter citrus tonic notes' },
+  ],
+  milkis: [
+    { ingredientId: 'chilsung-cider', noteKo: '우유 풍미는 사라지지만 상큼한 청량감이 살아나요', note: 'Loses creamy milk note, keeps lemon-lime fizz' },
+  ],
+
+  // Mocktail mixers
+  'iced-tea': [
+    { ingredientId: 'lemonade', noteKo: '홍차 대신 상큼하고 달콤한 레몬 맛이 나요', note: 'Bright, sweet-tart lemon note' },
+  ],
+  lemonade: [
+    { ingredientId: 'chilsung-cider', noteKo: '탄산감이 더해지고 달콤상큼해져요', note: 'Adds crisp lemon-lime fizz' },
+  ],
+
+  // Classic herbal liqueurs
+  benedictine: [
+    { ingredientId: 'yellow-chartreuse', noteKo: '허브 향이 더 화사하고 산뜻해져요', note: 'Brighter, more vibrant herbal character' },
+    { ingredientId: 'amaro', noteKo: '단맛과 허브 쌉쌀함이 어우러져요', note: 'Balanced bittersweet herbal profile' },
+  ],
+  'yellow-chartreuse': [
+    { ingredientId: 'benedictine', noteKo: '꿀과 향신료의 부드럽고 묵직한 단맛이 나요', note: 'Richer honey and warm spice sweetness' },
+  ],
+  'fernet-branca': [
+    { ingredientId: 'amaro', noteKo: '강렬한 민트향 대신 부드러운 허브 쌉쌀함이 나요', note: 'Milder herbal bitterness without the intense mint kick' },
+  ],
+  cynar: [
+    { ingredientId: 'amaro', noteKo: '특유의 채소 향 대신 대중적인 약초 쌉쌀함이 나요', note: 'Classic bittersweet herbal notes' },
+  ],
+  averna: [
+    { ingredientId: 'amaro', noteKo: '비슷하게 묵직하고 달콤쌉쌀한 아페리티프 맛이에요', note: 'Similarly rich and bittersweet' },
+  ],
 }
 
 export function getSubstitutes(ingredientId: string): SubstitutionEntry[] {

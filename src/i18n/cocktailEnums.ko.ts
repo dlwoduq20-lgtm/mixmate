@@ -14,6 +14,10 @@ export const CATEGORY_NAMES_KO: Record<string, string> = {
   Highball: '하이볼',
   Martini: '마티니',
   Sparkling: '스파클링',
+  Soju: '소주',
+  Beer: '맥주',
+  Makgeolli: '막걸리',
+  Mocktail: '무알콜 목테일',
 }
 
 export const BASE_SPIRIT_NAMES_KO: Record<string, string> = {
@@ -27,6 +31,10 @@ export const BASE_SPIRIT_NAMES_KO: Record<string, string> = {
   Liqueur: '리큐어',
   Wine: '와인',
   Multiple: '혼합',
+  Soju: '소주',
+  Beer: '맥주',
+  Makgeolli: '막걸리',
+  'Non-Alcoholic': '무알콜',
 }
 
 export const DIFFICULTY_NAMES_KO: Record<string, string> = {

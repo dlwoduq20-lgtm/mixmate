@@ -27,6 +27,10 @@ const SPIRIT_LIQUID: Record<string, string> = {
   Liqueur: '#E0708A',
   Wine: '#F3B6C4',
   Multiple: '#E8734A',
+  Soju: '#D8ECE8',
+  Beer: '#F5CD52',
+  Makgeolli: '#F3F4F1',
+  'Non-Alcoholic': '#FFA07A',
 }
 
 function hashStr(s: string): number {

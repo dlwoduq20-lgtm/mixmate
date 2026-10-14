@@ -5568,4 +5568,2600 @@ export const COCKTAILS: Cocktail[] = [
     season: ["All Year"],
     tags: ["Party", "Sweet"],
   },
+  {
+    "id": "soju-tonic",
+    "name": "Soju Tonic",
+    "aliases": [
+      "소토닉"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A refreshing Korean bar favorite combining smooth soju with crisp tonic water and a squeeze of fresh lemon.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "tonic-water",
+        "name": "Tonic Water",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 10,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wedge",
+    "instructions": [
+      "Fill a highball glass with fresh ice cubes.",
+      "Pour 60 ml Soju and 10 ml Lemon Juice over the ice.",
+      "Top with 120 ml Tonic Water and stir gently once.",
+      "Garnish with a fresh lemon wedge."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 1,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 8.5,
+    "foodPairings": [
+      "Korean Fried Chicken",
+      "Samgyeopsal",
+      "Tteokbokki",
+      "Dried Pollack"
+    ],
+    "popularity": 96,
+    "season": [
+      "All Year",
+      "Summer"
+    ],
+    "tags": [
+      "Korean",
+      "Highball",
+      "Refreshing",
+      "Popular"
+    ]
+  },
+  {
+    "id": "gojinkamrae",
+    "name": "Gojinkamrae",
+    "aliases": [
+      "고진감래주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A legendary Korean party layered drink. First you taste the bitter beer and soju, followed by sweet cola at the bottom—meaning 'pleasure follows pain'.",
+    "ingredients": [
+      {
+        "ingredientId": "cola",
+        "name": "Cola",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "beer",
+        "name": "Beer",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Place a shot glass with 45 ml Cola inside an empty highball glass.",
+      "Stack a second shot glass with 45 ml Soju directly on top.",
+      "Carefully fill the surrounding glass with 150 ml cold Beer.",
+      "Drink in one smooth, continuous draw until the sweet cola is reached."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 2,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 9,
+    "foodPairings": [
+      "Korean BBQ",
+      "Fried Chicken",
+      "Pork Belly"
+    ],
+    "popularity": 93,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Party",
+      "Bomb Shot",
+      "Fun"
+    ]
+  },
+  {
+    "id": "melona-ju",
+    "name": "Melona Soju Cocktail",
+    "aliases": [
+      "메로나주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A beloved Korean viral drink made by melting a creamy Melona honeydew ice bar into soju and sparkling cider.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "melon-ice-cream",
+        "name": "Melon Ice Pop / Melona",
+        "amount": 1,
+        "unit": "bar",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Melon Ice Bar",
+    "instructions": [
+      "Add 60 ml Soju and ice cubes into a tall glass.",
+      "Pour 120 ml Cider over the ice.",
+      "Insert 1 whole Melona bar and stir gently until it melts into a silky melon cocktail."
+    ],
+    "flavorProfile": {
+      "sweet": 5,
+      "sour": 1,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 6.5,
+    "foodPairings": [
+      "Spicy Rice Cakes",
+      "French Fries",
+      "Spicy Chicken Wings"
+    ],
+    "popularity": 95,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Sweet",
+      "Dessert",
+      "Viral"
+    ]
+  },
+  {
+    "id": "milkis-ju",
+    "name": "Milkis Soju",
+    "aliases": [
+      "밀키스주",
+      "암바사주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "Mixing soju, beer, and lemon-lime soda creates a magical frothy texture that tastes just like the sweet yogurt soda Milkis.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "beer",
+        "name": "Beer",
+        "amount": 90,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 90,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Pour 45 ml Soju, 90 ml Beer, and 90 ml Cider into a glass.",
+      "Cover the top with a napkin or coaster and strike the bottom to create dense, creamy foam.",
+      "Enjoy immediately while fizzy and sweet."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 1,
+      "bitter": 1,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 7.2,
+    "foodPairings": [
+      "Korean Fried Chicken",
+      "Spicy Tteokbokki",
+      "Kimchi Pancake"
+    ],
+    "popularity": 92,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Sweet",
+      "Party",
+      "Magic"
+    ]
+  },
+  {
+    "id": "bongbong-ju",
+    "name": "Bong Bong Soju",
+    "aliases": [
+      "포도봉봉주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A sweet, fruity highball combining soju with Korean green grape juice containing whole peeled grapes, finished with bubbly cider.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "grape-bongbong",
+        "name": "Bong Bong White Grape Drink",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Fill a glass with ice cubes.",
+      "Pour 60 ml Soju and 120 ml Bong Bong grape juice including the whole grapes.",
+      "Top with 60 ml Cider and stir gently."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 6,
+    "foodPairings": [
+      "Cheese Nachos",
+      "Fruit Platter",
+      "Dumplings"
+    ],
+    "popularity": 91,
+    "season": [
+      "All Year",
+      "Summer"
+    ],
+    "tags": [
+      "Korean",
+      "Fruity",
+      "Sweet",
+      "Easy"
+    ]
+  },
+  {
+    "id": "crushed-pear-soju",
+    "name": "IdH Pear Soju",
+    "aliases": [
+      "갈배소주",
+      "배소주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "Korea's famous hangover-fighting highball. Korea's iconic crushed pear juice gives lush sweetness that completely rounds out the spirit.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "crushed-pear",
+        "name": "Crushed Pear Drink / IdH",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 30,
+        "unit": "ml",
+        "required": false
+      }
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wedge",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour 60 ml Soju and 150 ml Crushed Pear juice over the ice.",
+      "Top with a splash of soda water if desired and stir gently.",
+      "Garnish with a lemon wedge."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 1,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 6.2,
+    "foodPairings": [
+      "Pork Belly",
+      "Bossam",
+      "Korean BBQ"
+    ],
+    "popularity": 94,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Hangover",
+      "Sweet",
+      "Fruity"
+    ]
+  },
+  {
+    "id": "hongcho-soju",
+    "name": "Hongcho Soju",
+    "aliases": [
+      "홍초 소주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A tart, deep-crimson Korean cocktail pairing pomegranate drinking vinegar with chilled soju and sparkling water for a zesty refresher.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "hongcho",
+        "name": "Hongcho / Pomegranate Vinegar",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add 60 ml Soju and 30 ml Hongcho pomegranate vinegar.",
+      "Top with 120 ml Soda Water and stir gently."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 4,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 7,
+    "foodPairings": [
+      "Grilled Pork",
+      "Salad",
+      "Fried Chicken"
+    ],
+    "popularity": 90,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Sour",
+      "Diet",
+      "Refreshing"
+    ]
+  },
+  {
+    "id": "earl-grey-highball",
+    "name": "Earl Grey Highball",
+    "aliases": [
+      "얼그레이 하이볼"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "The sensational modern highball that took Korean Izakayas by storm, matching fragrant bergamot Earl Grey syrup with rich whiskey and soda.",
+    "ingredients": [
+      {
+        "ingredientId": "bourbon",
+        "name": "Bourbon",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "earl-grey-syrup",
+        "name": "Earl Grey Syrup",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 10,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wedge",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add 45 ml Bourbon, 20 ml Earl Grey Syrup, and 10 ml Lemon Juice.",
+      "Top with 120 ml cold Soda Water.",
+      "Stir gently from the bottom with a barspoon.",
+      "Garnish with a lemon wedge."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 2,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 11.5,
+    "foodPairings": [
+      "Yakitori",
+      "Fried Chicken",
+      "Cheese",
+      "Steak"
+    ],
+    "popularity": 97,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Highball",
+      "Trendy",
+      "Aromatic",
+      "Popular"
+    ]
+  },
+  {
+    "id": "earl-grey-soju",
+    "name": "Earl Grey Soju",
+    "aliases": [
+      "얼그레이 소주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A lighter, clean-tasting twist on the Earl Grey highball using Korean soju as the base. Floral tea notes dance with lively tonic bubbles.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "earl-grey-syrup",
+        "name": "Earl Grey Syrup",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "tonic-water",
+        "name": "Tonic Water",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wheel",
+    "instructions": [
+      "Fill a glass with ice cubes.",
+      "Pour 60 ml Soju and 20 ml Earl Grey Syrup over ice.",
+      "Top with 120 ml Tonic Water and stir gently.",
+      "Garnish with a fresh lemon wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 1,
+      "bitter": 1,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 7.5,
+    "foodPairings": [
+      "Dried Snacks",
+      "Cheese",
+      "Grilled Skewers"
+    ],
+    "popularity": 89,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Aromatic",
+      "Highball"
+    ]
+  },
+  {
+    "id": "maksa",
+    "name": "Maksa",
+    "aliases": [
+      "막사",
+      "막걸리 사이다"
+    ],
+    "category": "Makgeolli",
+    "baseSpirit": "Makgeolli",
+    "description": "The timeless Korean hiking and rainy-day combo: milky, tangy makgeolli brightened with sweet, carbonated lemon-lime cider.",
+    "ingredients": [
+      {
+        "ingredientId": "makgeolli",
+        "name": "Makgeolli",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 75,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Rocks",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "In a traditional bowl or glass with ice, pour 150 ml shaken Makgeolli.",
+      "Top with 75 ml cold Cider.",
+      "Swirl gently to combine and sip."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 4.8,
+    "foodPairings": [
+      "Pajeon",
+      "Kimchi Pancake",
+      "Tofu Kimchi",
+      "Acorn Jelly"
+    ],
+    "popularity": 95,
+    "season": [
+      "All Year",
+      "Spring",
+      "Fall"
+    ],
+    "tags": [
+      "Korean",
+      "Traditional",
+      "Sweet",
+      "Low ABV"
+    ]
+  },
+  {
+    "id": "yuja-makgeolli",
+    "name": "Yuja Makgeolli",
+    "aliases": [
+      "유자 막걸리"
+    ],
+    "category": "Makgeolli",
+    "baseSpirit": "Makgeolli",
+    "description": "Creamy, lightly effervescent rice wine infused with golden Korean citron marmalade. Sweet, floral, and irresistibly aromatic.",
+    "ingredients": [
+      {
+        "ingredientId": "makgeolli",
+        "name": "Makgeolli",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "yuja-cheong",
+        "name": "Yuja Cheong / Citron Marmalade",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "None",
+    "instructions": [
+      "In a glass or pitcher, stir 30 ml Yuja Cheong with 150 ml Makgeolli until dissolved.",
+      "Add ice and top with 45 ml Soda Water.",
+      "Stir gently and serve."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 3,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 4.5,
+    "foodPairings": [
+      "Bossam",
+      "Pork Pancake",
+      "Spicy Stir-fried Pork"
+    ],
+    "popularity": 91,
+    "season": [
+      "Winter",
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Citrus",
+      "Sweet",
+      "Traditional"
+    ]
+  },
+  {
+    "id": "bok-so-sa",
+    "name": "Bok-So-Sa",
+    "aliases": [
+      "복소사"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "Korea's celebrated celebratory pitcher drink mixing rich black raspberry wine, soju, and fizzy cider for a gorgeous ruby-colored punch.",
+    "ingredients": [
+      {
+        "ingredientId": "bokbunja-ju",
+        "name": "Bokbunja-ju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 90,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Fill a glass or beer mug with ice.",
+      "Add 60 ml Bokbunja-ju and 60 ml Soju.",
+      "Top with 90 ml Cider and stir gently."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 2,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 11,
+    "foodPairings": [
+      "Grilled Eel",
+      "Duck BBQ",
+      "Beef Tartare",
+      "Samgyeopsal"
+    ],
+    "popularity": 93,
+    "season": [
+      "All Year",
+      "Summer"
+    ],
+    "tags": [
+      "Korean",
+      "Berry",
+      "Party",
+      "Punch"
+    ]
+  },
+  {
+    "id": "maehwasu-soju",
+    "name": "Plum Soju Ringer",
+    "aliases": [
+      "링겔주",
+      "매소주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "Famously mixed in Korea by inverting a bottle of Maehwasu plum wine into a soju bottle like an IV drip. Smooth, sweet, with rich plum perfume.",
+    "ingredients": [
+      {
+        "ingredientId": "plum-wine",
+        "name": "Plum Wine / Maesil-ju",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Shot Glass",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Pour 45 ml Soju into a glass.",
+      "Add 45 ml Plum Wine.",
+      "Stir lightly or chill as shots."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 2,
+      "refreshing": 3
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 14.5,
+    "foodPairings": [
+      "Sashimi",
+      "Fish Cake Soup",
+      "Clam Stew"
+    ],
+    "popularity": 90,
+    "season": [
+      "All Year",
+      "Spring"
+    ],
+    "tags": [
+      "Korean",
+      "Sweet",
+      "Plum",
+      "Party"
+    ]
+  },
+  {
+    "id": "yakult-soju",
+    "name": "Yakult Soju",
+    "aliases": [
+      "요구르트 소주"
+    ],
+    "category": "Soju",
+    "baseSpirit": "Soju",
+    "description": "A nostalgic Korean comfort cocktail blending tangy probiotic yogurt drink, soju, and soda. Velvety, sweet-tart, and smooth.",
+    "ingredients": [
+      {
+        "ingredientId": "soju",
+        "name": "Soju",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "yakult",
+        "name": "Yakult / Probiotic Drink",
+        "amount": 90,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "chilsung-cider",
+        "name": "Cider / Lemon-Lime Soda",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Fill a glass with ice cubes.",
+      "Add 60 ml Soju and 90 ml Yakult.",
+      "Top with 60 ml Cider and stir gently until smoothly blended."
+    ],
+    "flavorProfile": {
+      "sweet": 5,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 6.8,
+    "foodPairings": [
+      "Spicy Rice Cakes",
+      "Tteokbokki",
+      "Fried Chicken"
+    ],
+    "popularity": 94,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Korean",
+      "Sweet",
+      "Comfort",
+      "Party"
+    ]
+  },
+  {
+    "id": "dirty-hoe",
+    "name": "Dirty Hoe",
+    "aliases": [
+      "더티호"
+    ],
+    "category": "Beer",
+    "baseSpirit": "Beer",
+    "description": "A striking layered beer cocktail made by floating dark stout over wheat beer or crisp lager. A visually stunning two-tone brew.",
+    "ingredients": [
+      {
+        "ingredientId": "beer",
+        "name": "Beer",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "dark-beer",
+        "name": "Dark Beer / Stout",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Fill a tall beer glass halfway with 150 ml chilled Beer or wheat beer.",
+      "Place a spoon curved-side up over the beer surface.",
+      "Slowly pour 150 ml cold Dark Beer over the back of the spoon to create two distinct layers."
+    ],
+    "flavorProfile": {
+      "sweet": 1,
+      "sour": 0,
+      "bitter": 3,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Medium",
+    "preparationTime": 2,
+    "abv": 5,
+    "foodPairings": [
+      "Sausages",
+      "Pizza",
+      "Burgers",
+      "Fish and Chips"
+    ],
+    "popularity": 88,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Beer",
+      "Layered",
+      "Visual"
+    ]
+  },
+  {
+    "id": "red-eye",
+    "name": "Red Eye",
+    "aliases": [
+      "레드아이"
+    ],
+    "category": "Beer",
+    "baseSpirit": "Beer",
+    "description": "The classic morning-after beer cocktail combining chilled lager and tomato juice. Light, savory, and restorative.",
+    "ingredients": [
+      {
+        "ingredientId": "beer",
+        "name": "Beer",
+        "amount": 180,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "tomato-juice",
+        "name": "Tomato Juice",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "None",
+    "instructions": [
+      "Pour 120 ml cold Tomato Juice into a highball glass.",
+      "Gently top with 180 ml chilled Beer.",
+      "Stir once gently and serve immediately."
+    ],
+    "flavorProfile": {
+      "sweet": 1,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 1,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 3.2,
+    "foodPairings": [
+      "Brunch",
+      "Bacon and Eggs",
+      "Pizza"
+    ],
+    "popularity": 87,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Beer",
+      "Savory",
+      "Hangover",
+      "Brunch"
+    ]
+  },
+  {
+    "id": "shandy",
+    "name": "Shandy",
+    "aliases": [
+      "샨디"
+    ],
+    "category": "Beer",
+    "baseSpirit": "Beer",
+    "description": "The ultimate British thirst-quencher pairing crisp lager half-and-half with sparkling lemonade. Crisp, zesty, and low-proof.",
+    "ingredients": [
+      {
+        "ingredientId": "beer",
+        "name": "Beer",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemonade",
+        "name": "Lemonade",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wheel",
+    "instructions": [
+      "Fill half of a chilled glass with 150 ml cold Beer.",
+      "Top with 150 ml chilled Lemonade.",
+      "Garnish with a lemon wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 1,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 2.6,
+    "foodPairings": [
+      "Fish and Chips",
+      "Pub Snacks",
+      "Sandwiches",
+      "BBQ"
+    ],
+    "popularity": 91,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Beer",
+      "Low ABV",
+      "Refreshing",
+      "Classic"
+    ]
+  },
+  {
+    "id": "shirley-temple",
+    "name": "Shirley Temple",
+    "aliases": [
+      "셜리 템플"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "The world's most iconic mocktail, named after the famous child actress. Bubbly ginger ale kissed with vibrant red grenadine.",
+    "ingredients": [
+      {
+        "ingredientId": "ginger-ale",
+        "name": "Ginger Ale",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "grenadine",
+        "name": "Grenadine",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 10,
+        "unit": "ml",
+        "required": false
+      }
+    ],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Cocktail Cherry",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour 150 ml Ginger Ale over the ice.",
+      "Slowly drizzle 15 ml Grenadine over top so it sinks to the bottom.",
+      "Garnish with a cocktail cherry."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 1,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Dessert",
+      "Burgers",
+      "Fries",
+      "Appetizers"
+    ],
+    "popularity": 98,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Non-Alcoholic",
+      "Sweet",
+      "Classic"
+    ]
+  },
+  {
+    "id": "cinderella",
+    "name": "Cinderella",
+    "aliases": [
+      "신데렐라"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "A beloved tropical mocktail shaking orange, pineapple, and lemon juices together, crowned with crisp club soda.",
+    "ingredients": [
+      {
+        "ingredientId": "orange-juice",
+        "name": "Orange Juice",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "pineapple-juice",
+        "name": "Pineapple Juice",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [
+      {
+        "ingredientId": "grenadine",
+        "name": "Grenadine",
+        "amount": 5,
+        "unit": "ml",
+        "required": false
+      }
+    ],
+    "glass": "Highball",
+    "method": "Shake",
+    "garnish": "Orange Wheel",
+    "instructions": [
+      "Add 45 ml Orange Juice, 45 ml Pineapple Juice, and 30 ml Lemon Juice to a shaker with ice.",
+      "Shake vigorously for 10 seconds.",
+      "Strain into a tall glass filled with ice.",
+      "Top with 60 ml Soda Water and garnish with an orange wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 3,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 0,
+    "foodPairings": [
+      "Fruit Salad",
+      "Pancakes",
+      "Brunch"
+    ],
+    "popularity": 94,
+    "season": [
+      "Summer",
+      "Spring"
+    ],
+    "tags": [
+      "Mocktail",
+      "Fruity",
+      "Tropical",
+      "Refreshing"
+    ]
+  },
+  {
+    "id": "virgin-mojito",
+    "name": "Virgin Mojito",
+    "aliases": [
+      "버진 모히토"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "All the invigorating mint and lime sparkle of a classic Mojito without a drop of alcohol. Ultra-crisp and refreshing.",
+    "ingredients": [
+      {
+        "ingredientId": "lime-juice",
+        "name": "Lime Juice",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "simple-syrup",
+        "name": "Simple Syrup",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "mint",
+        "name": "Mint",
+        "amount": 8,
+        "unit": "leaf",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 140,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Mint Sprig",
+    "instructions": [
+      "In a highball glass, gently muddle fresh mint leaves with 30 ml Lime Juice and 20 ml Simple Syrup.",
+      "Fill the glass with crushed ice.",
+      "Top with 140 ml cold Soda Water.",
+      "Stir gently to bring the mint leaves up through the drink.",
+      "Garnish with a fresh mint sprig."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 3,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 0,
+    "foodPairings": [
+      "Tacos",
+      "Grilled Seafood",
+      "Salad"
+    ],
+    "popularity": 97,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Mint",
+      "Citrus",
+      "Refreshing"
+    ]
+  },
+  {
+    "id": "virgin-pina-colada",
+    "name": "Virgin Piña Colada",
+    "aliases": [
+      "버진 피냐콜라다"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "Lush tropical paradise in a glass. Rich coconut cream blended smooth with golden pineapple juice and a splash of fresh lime.",
+    "ingredients": [
+      {
+        "ingredientId": "pineapple-juice",
+        "name": "Pineapple Juice",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "coconut-cream",
+        "name": "Coconut Cream",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lime-juice",
+        "name": "Lime Juice",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Hurricane Glass",
+    "method": "Blend",
+    "garnish": "Pineapple Wedge",
+    "instructions": [
+      "Add 120 ml Pineapple Juice, 60 ml Coconut Cream, 15 ml Lime Juice, and a cup of ice into a blender.",
+      "Blend on high until smooth and frothy.",
+      "Pour into a hurricane glass.",
+      "Garnish with a pineapple wedge."
+    ],
+    "flavorProfile": {
+      "sweet": 5,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 3
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 0,
+    "foodPairings": [
+      "Spicy Seafood",
+      "Chips and Guacamole",
+      "Tropical Fruit"
+    ],
+    "popularity": 96,
+    "season": [
+      "Summer"
+    ],
+    "tags": [
+      "Mocktail",
+      "Creamy",
+      "Tropical",
+      "Sweet"
+    ]
+  },
+  {
+    "id": "arnold-palmer",
+    "name": "Arnold Palmer",
+    "aliases": [
+      "아놀드 파머"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "Invented by the legendary golfer, this half-iced tea half-lemonade cocktail is an all-American summer staple.",
+    "ingredients": [
+      {
+        "ingredientId": "iced-tea",
+        "name": "Iced Tea",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemonade",
+        "name": "Lemonade",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wheel",
+    "instructions": [
+      "Fill a tall glass with ice.",
+      "Pour 120 ml chilled Iced Tea and 120 ml Lemonade simultaneously into the glass.",
+      "Stir gently to combine.",
+      "Garnish with a lemon wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Sandwiches",
+      "Barbecue",
+      "Salad",
+      "Picnic Fare"
+    ],
+    "popularity": 95,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Tea",
+      "Citrus",
+      "Classic"
+    ]
+  },
+  {
+    "id": "virgin-mary",
+    "name": "Virgin Mary",
+    "aliases": [
+      "버진 메리"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "A spicy, savory tomato mocktail packed with umami, citrus zing, and black pepper. Perfect for brunches.",
+    "ingredients": [
+      {
+        "ingredientId": "tomato-juice",
+        "name": "Tomato Juice",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "name": "Worcestershire Sauce",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      },
+      {
+        "ingredientId": "hot-sauce",
+        "name": "Hot Sauce",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wedge",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add 150 ml Tomato Juice, 15 ml Lemon Juice, 2 dashes Worcestershire Sauce, and 2 dashes Hot Sauce.",
+      "Stir thoroughly.",
+      "Garnish with a lemon wedge."
+    ],
+    "flavorProfile": {
+      "sweet": 1,
+      "sour": 2,
+      "bitter": 1,
+      "strong": 0,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 0,
+    "foodPairings": [
+      "Eggs Benedict",
+      "Steak",
+      "Brunch",
+      "Oysters"
+    ],
+    "popularity": 92,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Savory",
+      "Spicy",
+      "Brunch"
+    ]
+  },
+  {
+    "id": "roy-rogers",
+    "name": "Roy Rogers",
+    "aliases": [
+      "로이 로저스"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "The dark twin to the Shirley Temple, blending ice-cold cola with sweet pomegranate grenadine and a bright red cherry.",
+    "ingredients": [
+      {
+        "ingredientId": "cola",
+        "name": "Cola",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "grenadine",
+        "name": "Grenadine",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Cocktail Cherry",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour 150 ml Cola over ice.",
+      "Add 15 ml Grenadine and stir lightly.",
+      "Garnish with a maraschino cherry."
+    ],
+    "flavorProfile": {
+      "sweet": 5,
+      "sour": 0,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Burgers",
+      "Pizza",
+      "Hot Dogs"
+    ],
+    "popularity": 90,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Sweet",
+      "Cola",
+      "Classic"
+    ]
+  },
+  {
+    "id": "sunset-cooler",
+    "name": "Sunset Cooler",
+    "aliases": [
+      "선셋 쿨러"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "A radiant non-alcoholic layered cooler evoking evening sunsets, pairing sweet orange, tart cranberry, and bubbly ginger ale.",
+    "ingredients": [
+      {
+        "ingredientId": "orange-juice",
+        "name": "Orange Juice",
+        "amount": 90,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "cranberry-juice",
+        "name": "Cranberry Juice",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "ginger-ale",
+        "name": "Ginger Ale",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Orange Wheel",
+    "instructions": [
+      "Fill a highball glass with ice cubes.",
+      "Pour 90 ml Orange Juice and 60 ml Ginger Ale into the glass.",
+      "Gently float 60 ml Cranberry Juice over top for a gradient sunset effect.",
+      "Garnish with an orange wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 3,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Fruit Platter",
+      "Salad",
+      "Light Snacks"
+    ],
+    "popularity": 89,
+    "season": [
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Mocktail",
+      "Fruity",
+      "Layered",
+      "Refreshing"
+    ]
+  },
+  {
+    "id": "virgin-sunrise",
+    "name": "Virgin Sunrise",
+    "aliases": [
+      "버진 선라이즈"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "The alcohol-free twin of the Tequila Sunrise, capturing the morning glow with sweet orange juice and sinking ruby grenadine.",
+    "ingredients": [
+      {
+        "ingredientId": "orange-juice",
+        "name": "Orange Juice",
+        "amount": 150,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "grenadine",
+        "name": "Grenadine",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Orange Wheel",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Pour 150 ml Orange Juice and 30 ml Soda Water into the glass.",
+      "Slowly pour 15 ml Grenadine down the inside of the glass so it settles at the bottom.",
+      "Do not stir. Garnish with an orange wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 4,
+      "sour": 2,
+      "bitter": 0,
+      "strong": 0,
+      "refreshing": 4
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Breakfast",
+      "Waffles",
+      "Brunch"
+    ],
+    "popularity": 93,
+    "season": [
+      "All Year",
+      "Summer"
+    ],
+    "tags": [
+      "Mocktail",
+      "Visual",
+      "Citrus",
+      "Sweet"
+    ]
+  },
+  {
+    "id": "citrus-sparkler",
+    "name": "Citrus Sparkler",
+    "aliases": [
+      "시트러스 스파클러"
+    ],
+    "category": "Mocktail",
+    "baseSpirit": "Non-Alcoholic",
+    "description": "A sparkling citrus refresher balancing ruby grapefruit tartness with fresh lemon and lively effervescent bubbles.",
+    "ingredients": [
+      {
+        "ingredientId": "grapefruit-juice",
+        "name": "Grapefruit Juice",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "lemon-juice",
+        "name": "Lemon Juice",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "simple-syrup",
+        "name": "Simple Syrup",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "soda-water",
+        "name": "Soda Water",
+        "amount": 120,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Highball",
+    "method": "Build",
+    "garnish": "Lemon Wheel",
+    "instructions": [
+      "Fill a highball glass with ice.",
+      "Add 60 ml Grapefruit Juice, 20 ml Lemon Juice, and 20 ml Simple Syrup.",
+      "Top with 120 ml Soda Water and stir gently.",
+      "Garnish with a lemon wheel."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 4,
+      "bitter": 1,
+      "strong": 0,
+      "refreshing": 5
+    },
+    "difficulty": "Easy",
+    "preparationTime": 1,
+    "abv": 0,
+    "foodPairings": [
+      "Seafood Salad",
+      "Grilled Chicken",
+      "Fish"
+    ],
+    "popularity": 88,
+    "season": [
+      "Summer",
+      "Spring"
+    ],
+    "tags": [
+      "Mocktail",
+      "Citrus",
+      "Sparkling"
+    ]
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "aliases": [
+      "밤부"
+    ],
+    "category": "Classic",
+    "baseSpirit": "Wine",
+    "description": "Created in 1890s Yokohama by Louis Eppinger. A delicate, nutty, and dry low-ABV classic pairing dry sherry and dry vermouth.",
+    "ingredients": [
+      {
+        "ingredientId": "sherry",
+        "name": "Sherry",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "dry-vermouth",
+        "name": "Dry Vermouth",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "orange-bitters",
+        "name": "Orange Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 1,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Lemon Peel",
+    "instructions": [
+      "Add 45 ml Sherry, 45 ml Dry Vermouth, 2 dashes Orange Bitters, and 1 dash Angostura Bitters to a mixing glass with ice.",
+      "Stir well for 25 seconds until thoroughly chilled.",
+      "Strain into a chilled coupe glass.",
+      "Express a lemon peel over the surface and discard or drop in."
+    ],
+    "flavorProfile": {
+      "sweet": 1,
+      "sour": 1,
+      "bitter": 2,
+      "strong": 2,
+      "refreshing": 3
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 18,
+    "foodPairings": [
+      "Olives",
+      "Almonds",
+      "Tapas",
+      "Aged Cheese"
+    ],
+    "popularity": 92,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Classic",
+      "Low ABV",
+      "Aperitif",
+      "Dry"
+    ]
+  },
+  {
+    "id": "tipperary",
+    "name": "Tipperary",
+    "aliases": [
+      "티퍼러리"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "A historic Irish whiskey classic dating back to 1916. Smooth malt whiskey meets rich sweet vermouth and alpine herbal Green Chartreuse.",
+    "ingredients": [
+      {
+        "ingredientId": "irish-whiskey",
+        "name": "Irish Whiskey",
+        "amount": 50,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "sweet-vermouth",
+        "name": "Sweet Vermouth",
+        "amount": 25,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "green-chartreuse",
+        "name": "Green Chartreuse",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Orange Peel",
+    "instructions": [
+      "Add 50 ml Irish Whiskey, 25 ml Sweet Vermouth, 15 ml Green Chartreuse, and 2 dashes Angostura Bitters into a mixing glass with ice.",
+      "Stir for 30 seconds until cold and diluted.",
+      "Strain into a chilled coupe glass.",
+      "Express an orange peel over the cocktail."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 4,
+      "refreshing": 1
+    },
+    "difficulty": "Easy",
+    "preparationTime": 3,
+    "abv": 33,
+    "foodPairings": [
+      "Roast Beef",
+      "Aged Cheddar",
+      "Smoked Salmon"
+    ],
+    "popularity": 93,
+    "season": [
+      "Fall",
+      "Winter",
+      "All Year"
+    ],
+    "tags": [
+      "Classic",
+      "Herbal",
+      "Strong",
+      "Irish"
+    ]
+  },
+  {
+    "id": "bobby-burns",
+    "name": "Bobby Burns",
+    "aliases": [
+      "바비 번즈"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "Named after Scotland's national poet, Robert Burns. Scotch whisky sweetened with Italian vermouth and rich spiced Bénédictine.",
+    "ingredients": [
+      {
+        "ingredientId": "scotch-whisky",
+        "name": "Scotch Whisky",
+        "amount": 50,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "sweet-vermouth",
+        "name": "Sweet Vermouth",
+        "amount": 25,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "benedictine",
+        "name": "Bénédictine D.O.M.",
+        "amount": 10,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Lemon Peel",
+    "instructions": [
+      "Add 50 ml Scotch Whisky, 25 ml Sweet Vermouth, and 10 ml Bénédictine to a mixing glass filled with ice.",
+      "Stir gently for 25 seconds until chilled.",
+      "Strain into a chilled cocktail coupe.",
+      "Garnish with a twist of lemon peel."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 4,
+      "refreshing": 0
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 32.5,
+    "foodPairings": [
+      "Shortbread",
+      "Steak",
+      "Dark Chocolate",
+      "Stilton Cheese"
+    ],
+    "popularity": 91,
+    "season": [
+      "Winter",
+      "Fall"
+    ],
+    "tags": [
+      "Classic",
+      "Scotch",
+      "Spiced",
+      "Strong"
+    ]
+  },
+  {
+    "id": "monte-carlo",
+    "name": "Monte Carlo",
+    "aliases": [
+      "몬테카를로"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "An Old Fashioned variation from David Embury's 1948 book, swapping simple syrup for complex, honey-and-herb Bénédictine.",
+    "ingredients": [
+      {
+        "ingredientId": "rye-whiskey",
+        "name": "Rye Whiskey",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "benedictine",
+        "name": "Bénédictine D.O.M.",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Rocks",
+    "method": "Stir",
+    "garnish": "Lemon Peel",
+    "instructions": [
+      "Add 60 ml Rye Whiskey, 15 ml Bénédictine, and 2 dashes Angostura Bitters into a mixing glass with ice.",
+      "Stir until very well chilled.",
+      "Strain into a rocks glass over a large clear ice cube.",
+      "Express a lemon twist over the drink."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 4,
+      "refreshing": 1
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 38,
+    "foodPairings": [
+      "Grilled Ribeye",
+      "Dark Truffles",
+      "Pecan Pie"
+    ],
+    "popularity": 90,
+    "season": [
+      "All Year",
+      "Winter"
+    ],
+    "tags": [
+      "Classic",
+      "Whiskey",
+      "Herbal",
+      "Sophisticated"
+    ]
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "aliases": [
+      "비외 카레"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "The crown jewel of the New Orleans French Quarter, invented at Hotel Monteleone in the 1930s. Silky, multifaceted, and legendary.",
+    "ingredients": [
+      {
+        "ingredientId": "rye-whiskey",
+        "name": "Rye Whiskey",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "cognac",
+        "name": "Cognac",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "sweet-vermouth",
+        "name": "Sweet Vermouth",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "benedictine",
+        "name": "Bénédictine D.O.M.",
+        "amount": 5,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "peychauds-bitters",
+        "name": "Peychaud's Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Rocks",
+    "method": "Stir",
+    "garnish": "Cocktail Cherry",
+    "instructions": [
+      "Combine 30 ml Rye Whiskey, 30 ml Cognac, 30 ml Sweet Vermouth, 5 ml Bénédictine, 2 dashes Peychaud's Bitters, and 2 dashes Angostura Bitters in a mixing glass with ice.",
+      "Stir gently for 30 seconds until well chilled.",
+      "Strain into an ice-filled rocks glass.",
+      "Garnish with a cocktail cherry and lemon peel."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 4,
+      "refreshing": 1
+    },
+    "difficulty": "Medium",
+    "preparationTime": 3,
+    "abv": 32,
+    "foodPairings": [
+      "Gumbo",
+      "Cajun Pork",
+      "Pralines",
+      "Charcuterie"
+    ],
+    "popularity": 96,
+    "season": [
+      "All Year"
+    ],
+    "tags": [
+      "Classic",
+      "New Orleans",
+      "Complex",
+      "Boozy"
+    ]
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "aliases": [
+      "크리샌서멈"
+    ],
+    "category": "Classic",
+    "baseSpirit": "Wine",
+    "description": "First recorded in 1916 by Hugo Ensslin. A vermouth-forward aperitif perfumed with herbal Bénédictine and an aromatic absinthe rinse.",
+    "ingredients": [
+      {
+        "ingredientId": "dry-vermouth",
+        "name": "Dry Vermouth",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "benedictine",
+        "name": "Bénédictine D.O.M.",
+        "amount": 30,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "absinthe",
+        "name": "Absinthe",
+        "amount": 5,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Orange Peel",
+    "instructions": [
+      "Add 60 ml Dry Vermouth, 30 ml Bénédictine, and 5 ml Absinthe to a mixing glass with ice.",
+      "Stir for 25 seconds until cold.",
+      "Strain into a chilled cocktail coupe.",
+      "Express an orange peel over the drink and place in the glass."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 0,
+      "bitter": 1,
+      "strong": 2,
+      "refreshing": 2
+    },
+    "difficulty": "Medium",
+    "preparationTime": 2,
+    "abv": 21,
+    "foodPairings": [
+      "Canapés",
+      "Goat Cheese",
+      "Seafood Tartare"
+    ],
+    "popularity": 88,
+    "season": [
+      "Spring",
+      "Summer",
+      "All Year"
+    ],
+    "tags": [
+      "Classic",
+      "Floral",
+      "Herbal",
+      "Aperitif"
+    ]
+  },
+  {
+    "id": "widows-kiss",
+    "name": "Widow's Kiss",
+    "aliases": [
+      "위도우스 키스"
+    ],
+    "category": "Brandy",
+    "baseSpirit": "Brandy",
+    "description": "An 1895 masterpiece from George Kappeler. Apple brandy intertwined with Yellow Chartreuse and Bénédictine for deep autumnal magic.",
+    "ingredients": [
+      {
+        "ingredientId": "apple-brandy",
+        "name": "Apple Brandy",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "yellow-chartreuse",
+        "name": "Yellow Chartreuse",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "benedictine",
+        "name": "Bénédictine D.O.M.",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 2,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Cocktail Cherry",
+    "instructions": [
+      "Add 45 ml Apple Brandy, 20 ml Yellow Chartreuse, 20 ml Bénédictine, and 2 dashes Angostura Bitters into a mixing glass with ice.",
+      "Stir thoroughly until chilled and velvety.",
+      "Strain into a chilled coupe.",
+      "Garnish with a brandied cherry."
+    ],
+    "flavorProfile": {
+      "sweet": 3,
+      "sour": 0,
+      "bitter": 1,
+      "strong": 4,
+      "refreshing": 0
+    },
+    "difficulty": "Medium",
+    "preparationTime": 2,
+    "abv": 36,
+    "foodPairings": [
+      "Apple Tart",
+      "Pork Chops",
+      "Roast Duck",
+      "Camembert"
+    ],
+    "popularity": 89,
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "tags": [
+      "Classic",
+      "Apple",
+      "Herbal",
+      "Rich"
+    ]
+  },
+  {
+    "id": "diamondback",
+    "name": "Diamondback",
+    "aliases": [
+      "다이아몬드백"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "Named after the Diamondback Lounge in 1950s Baltimore. Potent rye whiskey and apple brandy charged with herbal Green Chartreuse.",
+    "ingredients": [
+      {
+        "ingredientId": "rye-whiskey",
+        "name": "Rye Whiskey",
+        "amount": 45,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "apple-brandy",
+        "name": "Apple Brandy",
+        "amount": 25,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "green-chartreuse",
+        "name": "Green Chartreuse",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Maraschino Cherry",
+    "instructions": [
+      "Combine 45 ml Rye Whiskey, 25 ml Apple Brandy, and 20 ml Green Chartreuse in a mixing glass with ice.",
+      "Stir briskly for 25 seconds until very cold.",
+      "Strain into a chilled coupe glass.",
+      "Garnish with a maraschino cherry."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 5,
+      "refreshing": 1
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 42,
+    "foodPairings": [
+      "Smoked Meat",
+      "Strong Cheeses",
+      "Dark Chocolate"
+    ],
+    "popularity": 89,
+    "season": [
+      "Fall",
+      "Winter"
+    ],
+    "tags": [
+      "Strong",
+      "Complex",
+      "Classic"
+    ]
+  },
+  {
+    "id": "greenpoint",
+    "name": "Greenpoint",
+    "aliases": [
+      "그린포인트"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "Michael McIlroy's modern classic Manhattan variation created at Milk & Honey NYC in 2006, highlighting mellow Yellow Chartreuse.",
+    "ingredients": [
+      {
+        "ingredientId": "rye-whiskey",
+        "name": "Rye Whiskey",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "yellow-chartreuse",
+        "name": "Yellow Chartreuse",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "sweet-vermouth",
+        "name": "Sweet Vermouth",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "angostura-bitters",
+        "name": "Angostura Bitters",
+        "amount": 1,
+        "unit": "dash",
+        "required": true
+      },
+      {
+        "ingredientId": "orange-bitters",
+        "name": "Orange Bitters",
+        "amount": 1,
+        "unit": "dash",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Lemon Peel",
+    "instructions": [
+      "Add 60 ml Rye Whiskey, 15 ml Yellow Chartreuse, 15 ml Sweet Vermouth, 1 dash Angostura Bitters, and 1 dash Orange Bitters to a mixing glass with ice.",
+      "Stir for 30 seconds until cold.",
+      "Strain into a chilled coupe glass.",
+      "Express a lemon peel over the top and garnish."
+    ],
+    "flavorProfile": {
+      "sweet": 2,
+      "sour": 0,
+      "bitter": 2,
+      "strong": 4,
+      "refreshing": 1
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 34,
+    "foodPairings": [
+      "Pastrami",
+      "Charcuterie",
+      "Duck Breast"
+    ],
+    "popularity": 93,
+    "season": [
+      "All Year",
+      "Fall"
+    ],
+    "tags": [
+      "Modern Classic",
+      "Milk & Honey",
+      "Manhattan Variation"
+    ]
+  },
+  {
+    "id": "little-italy",
+    "name": "Little Italy",
+    "aliases": [
+      "리틀 이태리"
+    ],
+    "category": "Whiskey",
+    "baseSpirit": "Whiskey",
+    "description": "Created by Audrey Saunders at Pegu Club NYC. An earthy, bittersweet Manhattan riff pairing rye whiskey with artichoke-based Cynar amaro.",
+    "ingredients": [
+      {
+        "ingredientId": "rye-whiskey",
+        "name": "Rye Whiskey",
+        "amount": 60,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "cynar",
+        "name": "Cynar",
+        "amount": 15,
+        "unit": "ml",
+        "required": true
+      },
+      {
+        "ingredientId": "sweet-vermouth",
+        "name": "Sweet Vermouth",
+        "amount": 20,
+        "unit": "ml",
+        "required": true
+      }
+    ],
+    "optionalIngredients": [],
+    "glass": "Coupe",
+    "method": "Stir",
+    "garnish": "Cocktail Cherry",
+    "instructions": [
+      "Combine 60 ml Rye Whiskey, 15 ml Cynar, and 20 ml Sweet Vermouth in a mixing glass with ice.",
+      "Stir for 25 seconds until thoroughly chilled.",
+      "Strain into a chilled coupe glass.",
+      "Garnish with a cocktail cherry."
+    ],
+    "flavorProfile": {
+      "sweet": 1,
+      "sour": 0,
+      "bitter": 3,
+      "strong": 4,
+      "refreshing": 0
+    },
+    "difficulty": "Easy",
+    "preparationTime": 2,
+    "abv": 31,
+    "foodPairings": [
+      "Italian Prosciutto",
+      "Parmigiano-Reggiano",
+      "Meatballs"
+    ],
+    "popularity": 91,
+    "season": [
+      "All Year",
+      "Autumn"
+    ],
+    "tags": [
+      "Modern Classic",
+      "Bitter",
+      "Pegu Club",
+      "Manhattan Variation"
+    ]
+  },
 ]
