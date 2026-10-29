@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.dlwoduq.mixmate',
-  appName: 'MIXMATE',
+  appName: '칵테일메이트',
   webDir: 'dist'
 };
 
